@@ -2,8 +2,8 @@ BigElephant::Application.routes.draw do
 
 	# Sakura Tumbler
   get "sakura_tumbler" 							=> "sakura_tumbler#brandpage"
-  get "sakura_tumbler/order"
-  get "sakura_tumbler/reservation"
+  get "sakura_tumbler/order", 			as: "sakura_order"
+  get "sakura_tumbler/reservation",	as: "sakura_reservation"
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase

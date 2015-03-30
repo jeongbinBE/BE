@@ -1,3 +1,46 @@
-// Place all the styles related to the SakuraTumbler controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+/*===== Brandpage =====*/
+
+#item-title {
+  background-image: linear-gradient( rgba(208, 208, 208, 0.5), 
+																		 rgba(208, 208, 208, 0.5) ),
+										url("/images/tumblers_for_bg.png");
+  background-position: center;
+	margin-top: 2em;
+  text-align: center;
+}
+
+#item-name-h1 {
+  margin: 0;
+  padding: 1.5em 0 0em;
+	color: #515151;
+  font-size: 4em;
+  font-weight: bold;
+	span.label {
+		font-size: 0.25em;
+		vertical-align: text-top;
+	}
+}
+
+#item-name-h2 {
+  margin: 0;
+  padding: 1em 0em 1.5em;	
+	color: #515151;
+}
+
+.items-display {
+	margin-top: 4em;
+}
+
+.btn-for-order-page {
+	margin-bottom: 2em;
+	button {
+		background-color: #d87d31;
+		border-color: #d87d31;
+		font-weight: bold;
+		font-size: 1.3em;
+	}
+}
+
+.item-show {
+	margin-top: 5em;
+}
